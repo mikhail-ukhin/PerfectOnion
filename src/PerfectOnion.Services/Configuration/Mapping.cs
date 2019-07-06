@@ -1,8 +1,8 @@
 using AutoMapper;
 using PerfectOnion.Core.Entities;
-using PerfectOnion.Service.Dtos;
+using PerfectOnion.Services.Dtos;
 
-namespace PerfectOnion.Service.Configuration
+namespace PerfectOnion.Services.Configuration
 {
     public class Mapping : Profile
     {

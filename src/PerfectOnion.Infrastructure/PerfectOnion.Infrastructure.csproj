@@ -17,7 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data" />
+    <Folder Include="Migrations" />
+    <Folder Include="Providers" />
   </ItemGroup>
 
 </Project>

@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using PerfectOnion.Service.Abstractions;
-using PerfectOnion.Service.Dtos;
+using PerfectOnion.Services.Abstractions;
+using PerfectOnion.Services.Dtos;
 
-namespace PerfectOnion.Service.Implementations
+namespace PerfectOnion.Services.Implementations
 {
     public class OrderService : IOrderService
     {

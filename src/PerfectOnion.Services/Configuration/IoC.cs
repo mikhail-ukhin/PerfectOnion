@@ -1,8 +1,8 @@
 using Microsoft.Extensions.DependencyInjection;
-using PerfectOnion.Service.Abstractions;
-using PerfectOnion.Service.Implementations;
+using PerfectOnion.Services.Abstractions;
+using PerfectOnion.Services.Implementations;
 
-namespace PerfectOnion.Service.Configuration
+namespace PerfectOnion.Services.Configuration
 {
     public static class IoC
     {
