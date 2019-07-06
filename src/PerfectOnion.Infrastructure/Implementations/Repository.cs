@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using PerfectOnion.Core.Abstractions;
 using PerfectOnion.Core.Entities;
-using PerfectOnion.Core.Interfaces;
 
 namespace PerfectOnion.Infrastructure.Implementations
 {

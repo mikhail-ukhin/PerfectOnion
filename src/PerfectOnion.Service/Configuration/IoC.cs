@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
+using PerfectOnion.Service.Abstractions;
 using PerfectOnion.Service.Implementations;
-using PerfectOnion.Service.Interfaces;
 
 namespace PerfectOnion.Service.Configuration
 {

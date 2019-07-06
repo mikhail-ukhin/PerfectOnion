@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
+using PerfectOnion.Infrastructure.Abstractions;
 using PerfectOnion.Infrastructure.Implementations;
-using PerfectOnion.Infrastructure.Interfaces;
 
 namespace PerfectOnion.Infrastructure.Configuration
 {

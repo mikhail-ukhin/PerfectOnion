@@ -1,5 +1,5 @@
 using PerfectOnion.Core.Entities;
-using PerfectOnion.Infrastructure.Interfaces;
+using PerfectOnion.Infrastructure.Abstractions;
 
 namespace PerfectOnion.Infrastructure.Implementations
 {

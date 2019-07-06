@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace PerfectOnion.Core.Interfaces
+namespace PerfectOnion.Core.Abstractions
 {
     public interface IUnitOfWork
     {

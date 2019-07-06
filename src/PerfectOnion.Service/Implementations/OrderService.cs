@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using PerfectOnion.Service.Abstractions;
 using PerfectOnion.Service.Dtos;
-using PerfectOnion.Service.Interfaces;
 
 namespace PerfectOnion.Service.Implementations
 {

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using PerfectOnion.Service.Dtos;
 
-namespace PerfectOnion.Service.Interfaces
+namespace PerfectOnion.Service.Abstractions
 {
     public interface IOrderService
     {

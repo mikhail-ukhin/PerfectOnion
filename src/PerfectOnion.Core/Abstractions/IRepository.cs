@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using PerfectOnion.Core.Entities;
 
-namespace PerfectOnion.Core.Interfaces
+namespace PerfectOnion.Core.Abstractions
 {
     public interface IRepository<T> : IReadOnlyRepository<T> where T : BaseEntity
     {
