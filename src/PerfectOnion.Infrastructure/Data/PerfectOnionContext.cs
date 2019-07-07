@@ -13,6 +13,7 @@ namespace PerfectOnion.Infrastructure.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new CustomerConfiguration());
+            modelBuilder.ApplyConfiguration(new EmployeeConfiguration());
         }
     }
 }
