@@ -15,6 +15,9 @@ namespace PerfectOnion.Infrastructure.EntityConfigurations
                 .HasKey(e => e.Id);
 
             builder
+                .HasAlternateKey(e => e.Number);
+
+            builder
                 .Property(e => e.Id)
                 .HasColumnName("Id")
                 .IsRequired()
