@@ -1,7 +1,7 @@
 using PerfectOnion.Core.Abstractions;
-using PerfectOnion.Services.Dtos;
+using PerfectOnion.Services.Shopping.Dtos;
 
-namespace PerfectOnion.Services.Abstractions
+namespace PerfectOnion.Services.Shopping.Abstractions
 {
     public interface IOrderService : IService<OrderDto>
     {

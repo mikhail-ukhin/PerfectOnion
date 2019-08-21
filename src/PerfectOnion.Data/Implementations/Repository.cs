@@ -6,23 +6,8 @@ using PerfectOnion.Core.Entities;
 
 namespace PerfectOnion.Data.Implementations
 {
-    public class Repository<T> : IRepository<T> where T : BaseEntity
+    public class Repository<T> : ReadOnlyRepository<T>, IRepository<T> where T : BaseEntity
     {
-        public Task<T> GetAsync()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IEnumerable<T>> GetAllAsync()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<IEnumerable<T>> GetListAsync(Func<T, bool> selector)
-        {
-            throw new NotImplementedException();
-        }
-
         public Task<int> AddAsync(T entity)
         {
             throw new NotImplementedException();

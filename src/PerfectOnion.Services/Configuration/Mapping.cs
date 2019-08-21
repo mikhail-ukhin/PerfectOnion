@@ -1,6 +1,6 @@
 using AutoMapper;
 using PerfectOnion.Core.Entities;
-using PerfectOnion.Services.Dtos;
+using PerfectOnion.Services.Shopping.Dtos;
 
 namespace PerfectOnion.Services.Configuration
 {
