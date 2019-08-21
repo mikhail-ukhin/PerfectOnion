@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using PerfectOnion.Infrastructure.Data;
+using PerfectOnion.Data.Data;
 
 namespace PerfectOnion.Web
 {

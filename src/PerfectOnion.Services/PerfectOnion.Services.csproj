@@ -17,4 +17,8 @@
     <ProjectReference Include="..\PerfectOnion.Core\PerfectOnion.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Shopping" />
+  </ItemGroup>
+
 </Project>

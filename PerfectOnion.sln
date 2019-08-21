@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectOnion.Data", "src\PerfectOnion.Data\PerfectOnion.Data.csproj", "{0F4F20C4-2FB0-4E60-A938-345C3375126B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4051CB8B-16CB-46C4-9F9E-B929E374FB7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectOnion.Services.Tests", "PerfectOnion.Services.Tests\PerfectOnion.Services.Tests.csproj", "{5FC2EFB3-E058-4587-9AA1-A18390CE1ADE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,10 @@ Global
 		{0F4F20C4-2FB0-4E60-A938-345C3375126B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F4F20C4-2FB0-4E60-A938-345C3375126B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F4F20C4-2FB0-4E60-A938-345C3375126B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FC2EFB3-E058-4587-9AA1-A18390CE1ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FC2EFB3-E058-4587-9AA1-A18390CE1ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FC2EFB3-E058-4587-9AA1-A18390CE1ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FC2EFB3-E058-4587-9AA1-A18390CE1ADE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,5 +53,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E6AE868C-8CE3-46E0-87ED-9834D8C17931} = {7C538434-9257-41C6-887C-5D0FF6D30E55}
 		{0F4F20C4-2FB0-4E60-A938-345C3375126B} = {7C538434-9257-41C6-887C-5D0FF6D30E55}
+		{5FC2EFB3-E058-4587-9AA1-A18390CE1ADE} = {4051CB8B-16CB-46C4-9F9E-B929E374FB7A}
 	EndGlobalSection
 EndGlobal

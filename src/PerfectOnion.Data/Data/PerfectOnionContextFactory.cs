@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 
-namespace PerfectOnion.Infrastructure.Data
+namespace PerfectOnion.Data.Data
 {
     public class PerfectOnionContextFactory : IDesignTimeDbContextFactory<PerfectOnionContext>
     {

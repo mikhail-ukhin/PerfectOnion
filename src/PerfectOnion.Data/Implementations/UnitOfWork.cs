@@ -2,7 +2,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using PerfectOnion.Core.Abstractions;
 
-namespace PerfectOnion.Infrastructure.Implementations
+namespace PerfectOnion.Data.Implementations
 {
     public class UnitOfWork : IUnitOfWork
     {
