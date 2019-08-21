@@ -31,9 +31,19 @@ namespace PerfectOnion.Services.Shopping.Implementations
             return _mapper.Map<Order, OrderDto>(order);
         }
 
-        public Task<IEnumerable<OrderDto>> GetAllAsync()
+        public async Task<IEnumerable<OrderDto>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            var orders = await _perfectOnionUnitOfWork.Orders.GetAllAsync();
+
+            return _mapper.Map<IEnumerable<Order>, IEnumerable<OrderDto>>(orders);
+        }
+
+        public async Task<IEnumerable<OrderDto>> GetListAsync(DateTime startDate, DateTime endDate)
+        {
+            var orders = await _perfectOnionUnitOfWork.Orders
+                .GetListAsync(o => o.CreatedAt >= startDate && o.CreatedAt <= endDate);
+
+            return _mapper.Map<IEnumerable<Order>, IEnumerable<OrderDto>>(orders);
         }
     }
 }
