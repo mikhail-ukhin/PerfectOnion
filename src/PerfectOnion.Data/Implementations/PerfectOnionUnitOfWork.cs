@@ -1,6 +1,6 @@
 using System;
 using Microsoft.EntityFrameworkCore;
-using PerfectOnion.Infrastructure.Abstractions;
+using PerfectOnion.Core.Abstractions;
 
 namespace PerfectOnion.Infrastructure.Implementations
 {

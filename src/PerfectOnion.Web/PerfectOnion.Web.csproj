@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PerfectOnion.Infrastructure\PerfectOnion.Infrastructure.csproj" />
+    <ProjectReference Include="..\PerfectOnion.Data\PerfectOnion.Data.csproj" />
   </ItemGroup>
 
 </Project>

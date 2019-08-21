@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <AssemblyName>PerfectOnion.Infrastructure</AssemblyName>
-    <RootNamespace>PerfectOnion.Infrastructure</RootNamespace>
+    <AssemblyName>PerfectOnion.Data</AssemblyName>
+    <RootNamespace>PerfectOnion.Data</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

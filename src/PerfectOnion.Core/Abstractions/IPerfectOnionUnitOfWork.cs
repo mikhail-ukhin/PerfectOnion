@@ -1,6 +1,4 @@
-using PerfectOnion.Core.Abstractions;
-
-namespace PerfectOnion.Infrastructure.Abstractions
+namespace PerfectOnion.Core.Abstractions
 {
     public interface IPerfectOnionUnitOfWork : IUnitOfWork
     {
