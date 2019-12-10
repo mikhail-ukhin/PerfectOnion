@@ -19,9 +19,8 @@ namespace PerfectOnion.Web
 
 		public void ConfigureServices(IServiceCollection services)
 		{
-			services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-
-			services.AddDbContext<PerfectOnionContext>(opt => opt.UseInMemoryDatabase("default"));
+			services
+				.AddDbContext<PerfectOnionContext>();
 		}
 
 		public void Configure(IApplicationBuilder app, IHostingEnvironment env)

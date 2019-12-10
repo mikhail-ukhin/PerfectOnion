@@ -13,7 +13,6 @@ namespace PerfectOnion.Web
 		public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
 			WebHost.CreateDefaultBuilder(args)
 				.UseKestrel()
-				.UseUrls("http://*:5000")
 				.UseStartup<Startup>();
 	}
 }
