@@ -1,6 +1,7 @@
-using PerfectOnion.Core.Enums;
+using PerfectOnion.Core.Common.Entities;
+using PerfectOnion.Core.Common.Enums;
 
-namespace PerfectOnion.Core.Entities
+namespace PerfectOnion.Core.PerfectOnion.Entities
 {
     public class Person : BaseEntity
     {

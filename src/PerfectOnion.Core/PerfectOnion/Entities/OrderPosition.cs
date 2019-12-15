@@ -1,4 +1,6 @@
-namespace PerfectOnion.Core.Entities
+using PerfectOnion.Core.Common.Entities;
+
+namespace PerfectOnion.Core.PerfectOnion.Entities
 {
     public class OrderPosition : BaseEntity
     {

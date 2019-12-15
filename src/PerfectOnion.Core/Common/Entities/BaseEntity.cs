@@ -1,4 +1,4 @@
-namespace PerfectOnion.Core.Entities
+namespace PerfectOnion.Core.Common.Entities
 {
     public class BaseEntity
     {

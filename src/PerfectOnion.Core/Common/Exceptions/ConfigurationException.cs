@@ -1,6 +1,6 @@
 using System;
 
-namespace PerfectOnion.Core.Exceptions
+namespace PerfectOnion.Core.Common.Exceptions
 {
     public class ConfigurationException : Exception
     {

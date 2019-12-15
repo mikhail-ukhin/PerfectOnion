@@ -1,4 +1,4 @@
-namespace PerfectOnion.Core.Enums
+namespace PerfectOnion.Core.Common.Enums
 {
     public enum Gender
     {

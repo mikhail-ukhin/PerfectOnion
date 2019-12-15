@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
-using PerfectOnion.Core.Abstractions;
-using PerfectOnion.Core.Entities;
+using PerfectOnion.Core.PerfectOnion.Entities;
+using PerfectOnion.Core.PerfectOnion.Interfaces;
 using PerfectOnion.Services.Shopping.Abstractions;
 using PerfectOnion.Services.Shopping.Dtos;
 

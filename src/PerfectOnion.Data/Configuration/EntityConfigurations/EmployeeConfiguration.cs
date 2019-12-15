@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using PerfectOnion.Core.Entities;
+using PerfectOnion.Core.PerfectOnion.Entities;
 
 namespace PerfectOnion.Data.Configuration.EntityConfigurations
 {

@@ -1,6 +1,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
-using PerfectOnion.Core.Abstractions;
+using PerfectOnion.Core.PerfectOnion.Interfaces;
+using PerfectOnion.Data.Common;
 
 namespace PerfectOnion.Data.Implementations
 {

@@ -1,5 +1,5 @@
 using Microsoft.Extensions.DependencyInjection;
-using PerfectOnion.Core.Abstractions;
+using PerfectOnion.Core.PerfectOnion.Interfaces;
 using PerfectOnion.Data.PerfectOnion.Repositories;
 
 namespace PerfectOnion.Data.Configuration

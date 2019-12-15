@@ -3,8 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using PerfectOnion.Core.Common.Exceptions;
 using PerfectOnion.Core.Configuration;
-using PerfectOnion.Core.Exceptions;
 using PerfectOnion.Data.PerfectOnion;
 using PerfectOnion.Web.Services;
 

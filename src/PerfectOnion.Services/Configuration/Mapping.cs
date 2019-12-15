@@ -1,5 +1,5 @@
 using AutoMapper;
-using PerfectOnion.Core.Entities;
+using PerfectOnion.Core.PerfectOnion.Entities;
 using PerfectOnion.Services.Shopping.Dtos;
 
 namespace PerfectOnion.Services.Configuration

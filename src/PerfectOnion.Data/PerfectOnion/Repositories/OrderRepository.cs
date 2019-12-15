@@ -1,5 +1,5 @@
-using PerfectOnion.Core.Abstractions;
-using PerfectOnion.Core.Entities;
+using PerfectOnion.Core.PerfectOnion.Entities;
+using PerfectOnion.Core.PerfectOnion.Interfaces;
 using PerfectOnion.Data.Common;
 
 namespace PerfectOnion.Data.PerfectOnion.Repositories

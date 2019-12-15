@@ -1,4 +1,4 @@
-namespace PerfectOnion.Core.Dtos
+namespace PerfectOnion.Core.Common.Dtos
 {
     public class BaseDto
     {

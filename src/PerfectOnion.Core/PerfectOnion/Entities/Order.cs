@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
+using PerfectOnion.Core.Common.Entities;
 
-namespace PerfectOnion.Core.Entities
+namespace PerfectOnion.Core.PerfectOnion.Entities
 {
     public class Order : BaseEntity
     {

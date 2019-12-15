@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using PerfectOnion.Core.Dtos;
+using PerfectOnion.Core.Common.Dtos;
 
-namespace PerfectOnion.Core.Abstractions
+namespace PerfectOnion.Core.Common.Interfaces
 {
     public interface IService<T> where T : BaseDto
     {

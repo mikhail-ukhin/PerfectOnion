@@ -1,4 +1,6 @@
-namespace PerfectOnion.Core.Abstractions
+using PerfectOnion.Core.Common.Interfaces;
+
+namespace PerfectOnion.Core.PerfectOnion.Interfaces
 {
     public interface IPerfectOnionUnitOfWork : IUnitOfWork
     {

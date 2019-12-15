@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using PerfectOnion.Core.Abstractions;
-using PerfectOnion.Core.Dtos;
+using PerfectOnion.Core.Common.Dtos;
+using PerfectOnion.Core.Common.Interfaces;
 
 namespace PerfectOnion.Services.Shopping.Implementations
 {

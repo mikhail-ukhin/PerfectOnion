@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using PerfectOnion.Core.Abstractions;
+using PerfectOnion.Core.Common.Interfaces;
 
 namespace PerfectOnion.Data.Common
 {
