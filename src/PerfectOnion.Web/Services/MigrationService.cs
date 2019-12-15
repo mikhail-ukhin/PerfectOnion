@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using PerfectOnion.Data.Data;
+using PerfectOnion.Data.PerfectOnion;
 
 namespace PerfectOnion.Web.Services
 {

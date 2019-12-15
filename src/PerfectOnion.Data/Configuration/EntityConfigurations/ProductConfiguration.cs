@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using PerfectOnion.Core.Entities;
 
-namespace PerfectOnion.Data.EntityConfigurations
+namespace PerfectOnion.Data.Configuration.EntityConfigurations
 {
     public class ProductConfiguration : IEntityTypeConfiguration<Product>
     {

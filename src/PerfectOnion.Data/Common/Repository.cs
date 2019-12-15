@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using PerfectOnion.Core.Abstractions;
 using PerfectOnion.Core.Entities;
 
-namespace PerfectOnion.Data.Implementations
+namespace PerfectOnion.Data.Common
 {
     public class Repository<T> : ReadOnlyRepository<T>, IRepository<T> where T : BaseEntity
     {

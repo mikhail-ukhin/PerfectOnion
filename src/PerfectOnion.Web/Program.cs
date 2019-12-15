@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using PerfectOnion.Core.Configuration;
 using PerfectOnion.Core.Exceptions;
-using PerfectOnion.Data.Data;
+using PerfectOnion.Data.PerfectOnion;
 using PerfectOnion.Web.Services;
 
 namespace PerfectOnion.Web

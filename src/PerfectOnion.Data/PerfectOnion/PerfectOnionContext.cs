@@ -1,7 +1,7 @@
 using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 
-namespace PerfectOnion.Data.Data
+namespace PerfectOnion.Data.PerfectOnion
 {
     public class PerfectOnionContext : DbContext
     {
