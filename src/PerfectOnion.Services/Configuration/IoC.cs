@@ -1,14 +1,13 @@
 using Microsoft.Extensions.DependencyInjection;
-using PerfectOnion.Services.Shopping.Abstractions;
-using PerfectOnion.Services.Shopping.Implementations;
+using PerfectOnion.Services.PerfectOnion.Configuration;
 
 namespace PerfectOnion.Services.Configuration
 {
     public static class IoC
     {
-        public static IServiceCollection ConfigureServices(this IServiceCollection services) =>
+        public static IServiceCollection AddServices(this IServiceCollection services) =>
             services
-                .AddScoped<IOrderService, OrderService>();
+                .AddPerfectOnionServices();
 
         
     }

@@ -1,4 +1,4 @@
-namespace PerfectOnion.Services.Shopping.Dtos
+namespace PerfectOnion.Core.PerfectOnion.Dtos
 {
     public class EmployeeDto
     {

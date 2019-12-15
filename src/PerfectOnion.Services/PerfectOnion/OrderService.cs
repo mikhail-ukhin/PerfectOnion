@@ -2,12 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
+using PerfectOnion.Core.PerfectOnion.Dtos;
 using PerfectOnion.Core.PerfectOnion.Entities;
 using PerfectOnion.Core.PerfectOnion.Interfaces;
-using PerfectOnion.Services.Shopping.Abstractions;
-using PerfectOnion.Services.Shopping.Dtos;
 
-namespace PerfectOnion.Services.Shopping.Implementations
+namespace PerfectOnion.Services.PerfectOnion
 {
     public class OrderService : IOrderService
     {

@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using PerfectOnion.Services.Shopping.Dtos;
+using PerfectOnion.Core.PerfectOnion.Dtos;
 
-namespace PerfectOnion.Services.Shopping.Abstractions
+namespace PerfectOnion.Core.PerfectOnion.Interfaces
 {
     public interface IOrderService
     {
