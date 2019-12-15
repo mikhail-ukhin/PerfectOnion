@@ -5,7 +5,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using PerfectOnion.Core.Common.Exceptions;
 using PerfectOnion.Core.Configuration;
+using PerfectOnion.Data.Configuration;
 using PerfectOnion.Data.PerfectOnion;
+using PerfectOnion.Services.Configuration;
 using PerfectOnion.Web.Services;
 
 namespace PerfectOnion.Web
@@ -33,7 +35,9 @@ namespace PerfectOnion.Web
                             .Configure<ConnectionStrings>(context.Configuration.GetSection("ConnectionStrings"))
                             .AddEntityFrameworkNpgsql()
                             .AddDbContext<PerfectOnionContext>(c => c.UseNpgsql(appConfig.ConnectionStrings.DefaultConnection))
-                            .AddHostedService<MigrationService>();
+                            .AddHostedService<MigrationService>()
+                            .AddDataServices()
+                            .AddServices();
                     })
                 .Build()
                 .StartAsync();

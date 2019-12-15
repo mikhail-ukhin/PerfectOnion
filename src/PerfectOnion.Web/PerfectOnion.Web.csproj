@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PerfectOnion.Data\PerfectOnion.Data.csproj" />
+    <ProjectReference Include="..\PerfectOnion.Services\PerfectOnion.Services.csproj" />
   </ItemGroup>
 
 </Project>

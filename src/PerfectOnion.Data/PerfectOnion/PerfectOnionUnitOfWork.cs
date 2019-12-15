@@ -1,21 +1,17 @@
-using System;
-using Microsoft.EntityFrameworkCore;
 using PerfectOnion.Core.PerfectOnion.Interfaces;
 using PerfectOnion.Data.Common;
 
-namespace PerfectOnion.Data.Implementations
+namespace PerfectOnion.Data.PerfectOnion
 {
     public class PerfectOnionUnitOfWork : UnitOfWork, IPerfectOnionUnitOfWork
     {
-        private readonly Lazy<IOrderRepository> _orderRepository;
-
         public PerfectOnionUnitOfWork(
-            DbContext context,
-            Lazy<IOrderRepository> orderRepository) : base(context)
+            PerfectOnionContext context,
+            IOrderRepository orderRepository) : base(context)
         {
-            _orderRepository = orderRepository;
+            Orders = orderRepository;
         }
 
-        public IOrderRepository Orders => _orderRepository.Value;
+        public IOrderRepository Orders { get; }
     }
 }
