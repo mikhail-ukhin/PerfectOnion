@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
+using Microsoft.Extensions.Logging;
 using PerfectOnion.Core.PerfectOnion.Dtos;
 using PerfectOnion.Core.PerfectOnion.Entities;
 using PerfectOnion.Core.PerfectOnion.Interfaces;
@@ -11,13 +12,16 @@ namespace PerfectOnion.Services.PerfectOnion
     public class OrderService : IOrderService
     {
         private readonly IPerfectOnionUnitOfWork _perfectOnionUnitOfWork;
+        private readonly ILogger<OrderService> _logger;
         private readonly IMapper _mapper;
 
         public OrderService(
             IPerfectOnionUnitOfWork perfectOnionUnitOfWork,
+            ILogger<OrderService> logger,
             IMapper mapper)
         {
             _perfectOnionUnitOfWork = perfectOnionUnitOfWork;
+            _logger = logger;
             _mapper = mapper;
         }
         
